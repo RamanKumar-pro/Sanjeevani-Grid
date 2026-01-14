@@ -1,0 +1,96 @@
+# ============================================
+# SANJEEVANI GRID - BACKEND REQUIREMENTS
+# ============================================
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database & ORM
+sqlalchemy==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+geoalchemy2==0.14.3
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+pyjwt==2.8.0
+
+# Redis & Caching
+redis==5.0.1
+hiredis==2.3.2
+
+# WebSocket
+websockets==12.0
+python-socketio==5.11.0
+
+# Environment & Configuration
+python-dotenv==1.0.1
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP Client & Requests
+httpx==0.26.0
+aiohttp==3.9.1
+
+# Data Validation & Processing
+email-validator==2.1.0
+python-dateutil==2.8.2
+
+# ML & Data Science (Backend Integration)
+numpy==1.26.3
+pandas==2.1.4
+scikit-learn==1.4.0
+prophet==1.1.5
+torch==2.1.2
+tensorflow==2.15.0
+
+# MLOps & Model Management
+mlflow==2.10.0
+evidently==0.4.13
+
+# Feature Store
+feast==0.35.0
+
+# Geospatial & Mapping
+geopy==2.4.1
+shapely==2.0.2
+
+# API Documentation
+pydantic[email]==2.5.3
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
+faker==22.0.0
+
+# Task Queue & Background Jobs
+celery==5.3.6
+flower==2.0.1
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+python-json-logger==2.0.7
+
+# Data Serialization
+orjson==3.9.12
+
+# Utilities
+pytz==2023.3.post1
+tzdata==2023.4
+
+# Code Quality (Development)
+black==23.12.1
+flake8==7.0.0
+isort==5.13.2
+mypy==1.8.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.3
